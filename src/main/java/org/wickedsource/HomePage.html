@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	<body>
+		<div id="hd">
+			<div id="logo">
+				<img src="logo.png" width="50px" height="50px" alt="Wicket Logo" />
+				<h1>Apache Wicket</h1>
+			</div>
+		</div>
+		<div id="bd">
+			<h2>Page Exit Warning</h2>
+			<p>
+				Only after clicking the following link you will see a warning when you are trying to leave the page.
+			</p>
+			<p>
+				<a href="#" wicket:id="activateExitWarningLink">Activate Page Exit Warning</a>
+			</p>
+			<p>
+				<a href="#" wicket:id="deactivateExitWarningLink">Deactivate Page Exit Warning</a>
+			</p>
+		</div>
+		<div id="ft">
+		</div>
+	</body>
+</html>
