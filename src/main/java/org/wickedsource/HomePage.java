@@ -20,7 +20,7 @@ public class HomePage extends WebPage {
 		add(form);
 
 		TextField<String> nameField = new TextField<String>("name", new PropertyModel(this, "name"));
-		nameField.add(new PageExitWarningBehavior("Do you really want to leave this page?"));
+		nameField.add(new PageExitWarningBehavior());
 		form.add(nameField);
 
     }
